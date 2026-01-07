@@ -1,0 +1,22 @@
+h1 {
+  color: brown;
+}
+
+#copy {
+width: 524px;
+height: 201px;
+top: 72px;
+padding-left: 32px;
+padding-right: 32px;
+border: solid blue;
+}
+
+#copyTitle {
+  font-family: Roboto;
+  font-size: 24px;
+  width: 500px;
+  line-height: 28px;
+  letter-spacing: 0.4%;
+  text-align: center;
+  color: #3e3e3e;
+}
