@@ -1,22 +1,136 @@
-h1 {
-  color: brown;
+#layout {
+  display: flex;
 }
 
-#copy {
-width: 524px;
-height: 201px;
-top: 72px;
-padding-left: 32px;
-padding-right: 32px;
-border: solid blue;
+#copyBackground {
+  width: 524px;
+  height: 603px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
 }
 
-#copyTitle {
-  font-family: Roboto;
+.copyTitle {
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  width: 500px;
+  font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0.4%;
+  letter-spacing: 0.004em;
   text-align: center;
   color: #3e3e3e;
+  padding: 0 32px;
+}
+
+#textCopy {
+  height: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 32px;
+}
+
+#text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.004em;
+  text-align: center;
+}
+
+.gruopImg {
+  width: 250px;
+  height: 250px;
+}
+
+#formsLayout {
+  flex: 1;
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 336px;
+  gap: 10px;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color:#3E3E3E;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.004em;
+}
+
+.link {
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color:#3E3E3E;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  width: 336px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #BDBCBC;
+  padding: 10px 8px;
+}
+
+.checkbox {
+  display: flex;
+  align-items:start;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 116px;
+  height: 40px;
+  background: #FF5A60;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 24px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
